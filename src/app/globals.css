@@ -4,13 +4,20 @@
 
 ::-webkit-input-placeholder {
   font-style: italic;
+  font-size: 0.875rem;
 }
+
 :-moz-placeholder {
   font-style: italic;  
+  font-size: 0.875rem;
 }
+
 ::-moz-placeholder {
   font-style: italic;  
+  font-size: 0.875rem;
 }
+
 :-ms-input-placeholder {  
   font-style: italic; 
+  font-size: 0.875rem;
 }
