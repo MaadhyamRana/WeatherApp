@@ -49,37 +49,37 @@ export default function weatherdetails(props: WeatherDetailsProps) {
         <WeatherParam
             information='Visibility'
             icon={<LuEye />}
-            value={props.visibility}
+            value={visibility}
         ></WeatherParam>
 
         <WeatherParam
             information='Humidity'
             icon={<FiDroplet />}
-            value={props.humidity}
+            value={humidity}
         ></WeatherParam>
 
         <WeatherParam
             information='Wind Speed'
             icon={<MdAir />}
-            value={props.windSpeed}
+            value={windSpeed}
         ></WeatherParam>
 
         <WeatherParam
             information='Air Pressure'
             icon={<ImMeter />}
-            value={props.airPressure}
+            value={airPressure}
         ></WeatherParam>
 
         <WeatherParam
             information='Sunrise'
             icon={<LuSunrise />}
-            value={props.sunrise}
+            value={sunrise}
         ></WeatherParam>
 
         <WeatherParam
             information='Sunset'
             icon={<LuSunset />}
-            value={props.sunset}
+            value={sunset}
         ></WeatherParam>
 
         </>

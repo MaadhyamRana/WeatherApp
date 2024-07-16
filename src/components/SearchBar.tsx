@@ -11,7 +11,7 @@ type Props = {
     onSubmit:React.FormEventHandler<HTMLFormElement> | undefined;
 };
 
-export default function searchbar(props: Props) {
+export default function SearchBar(props: Props) {
   return (
     <form
         onSubmit={props.onSubmit}
